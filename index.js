@@ -14,7 +14,7 @@ const newsdetails = document.getElementById("newsdetails");
 var newsDataArr = [];
 
 // APIs 
-const API_KEY = "7169117ff81b499f8ee94eac4152fea4";
+const API_KEY = "eef94ed53e4d45a79894b8b2439dcd9b";
 const HEADLINES_NEWS = `https://newsapi.org/v2/top-headlines?country=in&apiKey=${API_KEY}`;
 const GENERAL_NEWS = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_KEY}`;
 const BUSINESS_NEWS = `https://newsapi.org/v2/everything?q=bitcoin&apiKey=${API_KEY}`;
